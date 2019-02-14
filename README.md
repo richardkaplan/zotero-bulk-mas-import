@@ -1,3 +1,6 @@
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/retorquere/zotero-bulk-mas-import.svg)](https://greenkeeper.io/)
+
 Bulk import from Microsoft Academic search by searching on title. Grab the latest release [here](https://github.com/retorquere/zotero-bulk-mas-import/releases/latest), drop it into your translators directory, and import a CSV file that has at least one column called `title`. The importer will search these titles on MAS, and will add the first hit it gets for each as a new item in Zotero.
 
 If you see less items then you expect, enable Debug Output Logging from the Help menu and look for lines with `BulkMAS`. At this time I cannot provide feedback on errors until https://groups.google.com/forum/#!topic/zotero-dev/G9RGcnFkPyc is resolved.
